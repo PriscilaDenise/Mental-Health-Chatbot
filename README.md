@@ -28,3 +28,9 @@ This project is a web-based **Mental Health Chatbot** designed to provide initia
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+3. **Install dependencies:**
+   ```bash
+   pip install flask transformers torch
+
+4. 
