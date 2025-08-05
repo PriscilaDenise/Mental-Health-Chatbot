@@ -33,4 +33,12 @@ This project is a web-based **Mental Health Chatbot** designed to provide initia
    ```bash
    pip install flask transformers torch
 
-4. 
+4. **Run the Application:**
+   ```bash
+   python chatbot.py
+   ```
+   - The server will start at http://127.0.0.1:5000.
+
+5. **Access the Chatbot:**
+   - Open a web browser and navigate to http://127.0.0.1:5000.
+   - Type messages in the input field and press "Send" or the Enter key to interact with the chatbot.
