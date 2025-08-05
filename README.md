@@ -33,4 +33,8 @@ This project is a web-based **Mental Health Chatbot** designed to provide initia
    ```bash
    pip install flask transformers torch
 
-4. 
+4. **Run the Application:**
+   ```bash
+   python chatbot.py
+
+5. 
