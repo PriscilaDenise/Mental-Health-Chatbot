@@ -15,7 +15,7 @@ responses = {
         "Love the positive vibes! Anything exciting happening?"
     ],
     "NEGATIVE": [
-        "I'm here for you. Want to talk about what's been going on?",
+        "I'm here for you. Want to talk about what has been going on?",
         "It sounds like you're having a tough time. I'm listening if you need me.",
         "I'm sorry you're feeling down. Can I help with anything?"
     ],
