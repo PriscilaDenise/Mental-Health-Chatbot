@@ -4,23 +4,23 @@ import Chart from 'chart.js/auto';
 import 'tailwindcss/tailwind.css';
 
 const App = () => {
-  const [message, setMessage] = useState('');
-  const [chat, setChat] = useState([]);
-  const [token, setToken] = useState(localStorage.getItem('token') || '');
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
-  const [isLoggedIn, setIsLoggedIn] = useState(!!token);
-  const [language, setLanguage] = useState('en');
-  const [moodData, setMoodData] = useState([]);
-  const chatBoxRef = useRef(null);
-  const chartRef = useRef(null);
-  const myChart = useRef(null);
+    const [message, setMessage] = useState('');
+    const [chat, setChat] = useState([]);
+    const [token, setToken] = useState(localStorage.getItem('token') || '');
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
+    const [isLoggedIn, setIsLoggedIn] = useState(!!token);
+    const [language, setLanguage] = useState('en');
+    const [moodData, setMoodData] = useState([]);
+    const chatBoxRef = useRef(null);
+    const chartRef = useRef(null);
+    const myChart = useRef(null);
 
-  const sendMessage = async () => {
-    if (!message.trim()) return;
-    const newChat = { sender: 'user', text: message };
-    setChat([...chat, newChat]);
-    setMessage('');
+    const sendMessage = async () => {
+        if (!message.trim()) return;
+        const newChat = { sender: 'user', text: message };
+        setChat([...chat, newChat]);
+        setMessage('');
 
     const res = await fetch('/chat', {
       method: 'POST',
