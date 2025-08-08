@@ -67,6 +67,7 @@ const App = () => {
     if (isLoggedIn) fetchMoodTrend();
   }, [isLoggedIn]);
 
+  
   useEffect(() => {
     if (moodData.length && chartRef.current) {
       if (myChart.current) myChart.current.destroy();
