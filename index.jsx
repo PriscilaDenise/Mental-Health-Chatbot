@@ -23,14 +23,14 @@ const App = () => {
         setMessage('');
 
     const res = await fetch('/chat', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
-      body: JSON.stringify({ message, language })
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+        body: JSON.stringify({ message, language })
     });
     const data = await res.json();
     setChat([...chat, newChat, { sender: 'bot', text: data.response, sentiment: data.sentiment, confidence: data.confidence }]);
     if (chatBoxRef.current) chatBoxRef.current.scrollTop = chatBoxRef.current.scrollHeight;
-  };
+};
 
   const handleLogin = async () => {
     const res = await fetch('/login', {
