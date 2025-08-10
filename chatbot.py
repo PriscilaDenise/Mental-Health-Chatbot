@@ -10,7 +10,7 @@ sentiment_analyzer = pipeline("sentiment-analysis", model="distilbert-base-uncas
 # Sample responses for different sentiments
 responses = {
     "POSITIVE": [
-        "I'm glad you're feeling good! Want to share more?",
+        "I'm glad you're feeling good! Would you like to share more?",
         "That's awesome to hear! What's got you in such a great mood?",
         "Love the positive vibes! Anything exciting happening?"
     ],
