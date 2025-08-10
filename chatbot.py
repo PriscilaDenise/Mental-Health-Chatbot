@@ -16,7 +16,7 @@ responses = {
     ],
     "NEGATIVE": [
         "I'm here for you. Want to talk about what has been going on?",
-        "It sounds like you're having a tough time. I'm listening if you need me.",
+        "It sounds like you're having a tough time. I'm here to listen if you need me.",
         "I'm sorry you're feeling down. Can I help with anything?"
     ],
     "NEUTRAL": [
