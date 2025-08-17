@@ -78,7 +78,7 @@ const App = () => {
           datasets: [{
             label: 'Sentiment Confidence',
             data: moodData.map(d => d.sentiment === 'POSITIVE' ? d.confidence : -d.confidence),
-            borderColor: 'rgba(75, 192, 192, 1)',
+            borderColor: 'rgba(76, 192, 192, 1)',
             fill: false
           }]
         },
