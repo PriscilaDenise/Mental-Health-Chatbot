@@ -107,7 +107,7 @@ const App = () => {
             className="w-full p-2 mb-2 border rounded"
           />
           <div className="flex gap-2">
-            <button onClick={handleLogin} className="bg-blue-500 text-white p-2 rounded hover:bg-blue-600">Login</button>
+            <button onClick={handleLogin} className="bg-blue-500 text-white p-2 rounded hover:bg-blue-600">LOGIN</button>
             <button onClick={handleRegister} className="bg-green-500 text-white p-2 rounded hover:bg-green-600">Register</button>
           </div>
         </div>
