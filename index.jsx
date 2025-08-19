@@ -136,7 +136,7 @@ const App = () => {
                 placeholder="Type your message..."
                 className="flex-1 p-2 border rounded"
               />
-              <button onClick={sendMessage} className="bg-blue-500 text-white p-2 rounded hover:bg-blue-600">Send</button>
+              <button onClick={sendMessage} className="bg-blue-500 text-white p-2 rounded hover:bg-blue-600">SEND</button>
             </div>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-md">
